@@ -1,0 +1,78 @@
+{ "categories": [
+  { "id": "1677c402", 
+    "seqkey":1, 
+    "category": "Welcome and Prep",
+    "image": "thumbnail1.jpg", 
+    "tags": "Free,Core" },
+  { "id": "2678f402", 
+    "seqkey":2, 
+    "category": "Shopping List",
+    "image": "thumbnail2.jpg", 
+    "tags": "Core" },
+  { "id": "3678f402", 
+    "seqkey":3, 
+    "category": "Puppy Philosphy",
+    "image": "thumbnail3.jpg", 
+    "tags": "Core" },
+  { "id": "4678f402", 
+    "seqkey":4, 
+    "category": "Building Blocks",
+    "image": "thumbnail4.jpg", 
+    "tags": "Core" }
+  ]
+}
+      
+{ "videos": 
+  [
+  { "categoryid": "1677c402",
+    "seqkey": 1,
+    "title": "Welcome",
+    "coachnotes": "Cheat sheet" },
+  { "categoryid": "1677c402",
+    "seqkey": 2,
+    "title": "Good Problems",
+    "coachnotes": "Cheat sheet" },
+  { "categoryid": "1677c402",
+    "seqkey": 3,
+    "title": "Food Prep",
+    "coachnotes": "Cheat sheet" },
+  { "categoryid": "1677c402",
+    "seqkey": 4,
+    "title": "Skipping Food Motivation",
+    "coachnotes": "Cheat sheet" },
+  { "categoryid": "2678f402",
+    "seqkey": 1,
+    "title": "Everything Your Puppy Needs",
+    "coachnotes": "Cheat sheet" },
+  { "categoryid": "2678f402",
+    "seqkey": 2,
+    "title": "26ft. Retractable Leash",
+    "coachnotes": "Cheat sheet" },
+  { "categoryid": "2678f402",
+    "seqkey": 3,
+    "title": "Buckle Collar",
+    "coachnotes": "Cheat sheet" },
+  { "categoryid": "2678f402",
+    "seqkey": 4,
+    "title": "Harness",
+    "coachnotes": "Cheat sheet" },
+  ]
+}
+
+{ "viewhistory": 
+    [
+    { "contactid": 207
+      "categoryid": "1677c402",
+      "seqkey": 1,
+      "viewed": "timestamp" },
+    { "contactid": 207
+      "categoryid": "1677c402",
+      "seqkey": 2,
+      "viewed": "timestamp" },
+    { "contactid": 207
+      "categoryid": "1677c402",
+      "seqkey": 3,
+      "viewed": "timestamp" }
+    ]
+}
+      

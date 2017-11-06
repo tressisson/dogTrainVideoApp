@@ -4,30 +4,27 @@
   </div>
   <div id="vidCatalog" class="col-md-4">
     <h3>Videos:</h3>
-    <!-- beginning of loop for categories of videos -->
-    <div class="col-md-12" *ngFor="let cats of videos">
-      <h4>{{cats.category}}</h4>
 
-      <!-- beginning of loop for video titles and descriptions -->
-      <div class="vidList col-md-12" *ngFor="let vids of cats.video">
-        <div class="col-md-4">
-          <img src="assets/videoThumbnail.jpg" class="img-responsive">
-        </div>
-        <div class="col-md-7">
-          <em>{{vids.title}}</em>
-          <br> {{vids.description}}
-        </div>
-      </div>
-
+    <div class="col-md-12" *ngFor="let cats of categories?.folders">
+      {{cats.FolderTitle}}
     </div>
+
+
+<button (click)="getVideos.tryMe()">button</button>
   </div>
   <div class="col-md-8">
-    <h2>Title of the Lesson Here</h2>
-    <div id="video">
-        <img src="assets/videoPlaceholder.jpg" class="img-responsive">
+    <h2>Welcome</h2>
+    <div valign="center" class="embed-responsive embed-responsive-16by9">
+      <video controls class="embed-responsive-item">
+        <source src="assets/ChampsDogTrainingIntro.m4v" type="video/mp4">
+      </video>
     </div>
     <div id="controls" class="text-center">
-      <h2><a href="#">< PREV</a> | <a href="#"> NEXT ></a></h2>
+      <h2>
+        <a href="#">
+          < PREV</a> |
+            <a href="#"> NEXT ></a>
+      </h2>
     </div>
   </div>
 </div>
