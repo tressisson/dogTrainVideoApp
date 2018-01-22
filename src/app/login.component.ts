@@ -21,7 +21,7 @@ export class LoginComponent {
 
   login(username: string, password: string) {
     this.loginObj = {};
-    this._http.get<any[]>('https://ltesy9g9aa.execute-api.us-east-1.amazonaws.com/dev/contact?email=' + username + '&key=' + password).subscribe(data => {
+    this._http.get<any[]>('addyourendpoint' + username + '&key=' + password).subscribe(data => {
       this.loginObj = data;
      // console.log(this.loginObj);
 

@@ -19,18 +19,18 @@ export class NgbdAccordionStatic implements OnInit {
 
   ngOnInit(): void {
 
-    this.http.get<any[]>('https://ltesy9g9aa.execute-api.us-east-1.amazonaws.com/dev/history?Email=rob@r2cs.net').subscribe(data => {
+    this.http.get<any[]>('addyourendpoint').subscribe(data => {
       this.history = data;
       //console.log(this.history);
       this.history = {};
     });
 
-    this.http.get<any[]>('https://ltesy9g9aa.execute-api.us-east-1.amazonaws.com/dev/folders').subscribe(data => {
+    this.http.get<any[]>('addyourendpoint').subscribe(data => {
       this.categories = data;
      // console.log(this.categories);
     });
 
-    this.http.get<any[]>('https://ltesy9g9aa.execute-api.us-east-1.amazonaws.com/dev/objects').subscribe(data => {
+    this.http.get<any[]>('addyourendpoint').subscribe(data => {
       this.videoList = data;
      // console.log(this.videoList);
     });

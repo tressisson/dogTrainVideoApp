@@ -12,7 +12,7 @@ export class VideoUrlService {
   constructor(private _http: HttpClient) { }
 
   getURL(ObjectId: string, email: string, title: string): void {
-    this._http.get<any[]>('https://ltesy9g9aa.execute-api.us-east-1.amazonaws.com/dev/url?ObjectId=' + ObjectId).subscribe(data => {
+    this._http.get<any[]>('addyourendpoint' + ObjectId).subscribe(data => {
       this.url = data;
       //console.log(this.url);
       //console.log(email, ObjectId);
@@ -29,7 +29,7 @@ export class VideoUrlService {
       Email: email,
       ObjectId: id
     }
-    this._http.put('https://ltesy9g9aa.execute-api.us-east-1.amazonaws.com/dev/history?', historyInfo)
+    this._http.put('addyourendpoint', historyInfo)
       .subscribe(
       res => {
         // console.log(res);

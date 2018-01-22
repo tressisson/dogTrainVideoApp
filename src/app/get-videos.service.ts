@@ -7,7 +7,7 @@ import { IVideo } from './videos';
 @Injectable()
 export class GetVideosService {
 
-  private _productUrl = 'https://ltesy9g9aa.execute-api.us-east-1.amazonaws.com/dev';
+  private _productUrl = 'addyourendpoint';
   
   videos: IVideo[];
   video: {};
