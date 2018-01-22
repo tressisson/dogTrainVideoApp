@@ -1,0 +1,24 @@
+{
+  "name": "trainthruplay",
+  "version": "1.0.0",
+  "description": "",
+  "main": "",
+  "scripts": {
+    "staticDeploy": "./bin/download_vendor_libs.sh && ./bin/deploy_static_files.sh",
+    "staticDestroy": "./bin/delete_static_files.sh && echo \"Now you can run 'sls remove' on the stage\""
+  },
+  "author": "Roby Roberts",
+  "dependencies": {
+    "amazon-cognito-identity-js": "^1.21.0",
+    "async": "^2.6.0",
+    "aws-sdk": "*",
+    "csv-parser": "^1.11.0",
+    "infusionsoft-api": "*",
+    "promise": "*",
+    "uuid": "^3.1.0"
+  },
+  "devDependencies": {
+    "standard": "*"
+  },
+  "license": "MIT"
+}

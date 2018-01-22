@@ -9,20 +9,21 @@ export class GetVideosService {
 
   private _productUrl = 'https://ltesy9g9aa.execute-api.us-east-1.amazonaws.com/dev';
   
+  videos: IVideo[];
+  video: {};
+
       constructor(private _http: HttpClient) { }
-  /*
-      getVideos(folderId: string): Observable<IVideo[]> {
-          return this._http.get<IVideo[]>(this._productUrl + '/objects?FolderId=' + folderId);
-              
+
+      getVideos(folderId: string): void {
+        this._http.get<IVideo[]>(this._productUrl + '/objects?FolderId=' + folderId).subscribe(data => {
+            this.videos = data;
+            console.log(this._productUrl + '/objects?FolderId=' + folderId);
+            console.log(this.videos);
+          }); 
       }
-  
-      getVideo(id: number): Observable<IVideo> {
-          return this.getProducts()
-              .map((products: IVideo[]) => products.find(p => p.productId === id));
-      }
-*/
-      tryMe(): void {
-        alert("I'm clicked");
+ 
+      clickMe(id): void {
+        console.log("clicked video service " + id);
       }
 
   

@@ -1,0 +1,8 @@
+Type: "AWS::CertificateManager::Certificate"
+Properties:
+  DomainName: ${self:custom.prodDomain}
+  DomainValidationOptions:
+  - DomainName: "${self:custom.prodDomain}"
+    ValidationDomain: "${self:custom.validationDomain}"
+  SubjectAlternativeNames:
+    - "www.${self:custom.prodDomain}"

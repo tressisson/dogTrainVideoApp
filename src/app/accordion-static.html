@@ -1,0 +1,35 @@
+<div id="accordion">
+    <ngb-accordion [closeOthers]="true" activeIds="static-1">
+        <div *ngFor="let cats of categories?.folders; let i = index">
+            <ngb-panel [attr.id]='"static"+i' class="card">
+                <ng-template ngbPanelTitle>
+                    <img [attr.src]='"../assets/" + cats.Image' [attr.alt]='cats.FolderTitle' width="200" />
+                </ng-template>
+                <ng-template ngbPanelContent class="card-text">
+                    <ul class="list-group list-group-flush">
+
+                        <div *ngIf="!(login?.premMember | async)">
+                            <div *ngFor="let vid of videoList.objects">
+                                <div *ngIf="vid.Freemium">
+                                    <li *ngIf="vid.FolderId === cats.FolderId" (click)="getURL.getURL(vid.ObjectId, login?.userEmail, vid.VideoTitle)" class="list-group-item">{{vid.VideoTitle}}</li>
+                                </div>
+                                <div *ngIf="!vid.Freemium">
+                                    <li *ngIf="vid.FolderId === cats.FolderId" class="list-group-item">{{vid.VideoTitle}} &nbsp; (premium only)</li>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div *ngIf="(login?.premMember | async)">
+                            <div *ngFor="let vid of videoList.objects">
+                                <li *ngIf="vid.FolderId === cats.FolderId" (click)="getURL.getURL(vid.ObjectId, login?.userEmail, vid.VideoTitle)" class="list-group-item">{{vid.VideoTitle}}</li>
+                            </div>
+                        </div>
+                        <!--
+                    </div>
+                -->
+                    </ul>
+                </ng-template>
+            </ngb-panel>
+        </div>
+    </ngb-accordion>
+</div>

@@ -1,0 +1,12 @@
+---
+Type: "AWS::DynamoDB::Table"
+Properties:
+  AttributeDefinitions:
+    - AttributeName: FolderId
+      AttributeType: S
+  KeySchema:
+    - AttributeName: FolderId
+      KeyType: HASH
+  ProvisionedThroughput:
+    ReadCapacityUnits: 1
+    WriteCapacityUnits: 1

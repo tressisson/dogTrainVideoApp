@@ -1,0 +1,28 @@
+---
+Type: "AWS::DynamoDB::Table"
+Properties:
+  AttributeDefinitions:
+    - AttributeName: ObjectId
+      AttributeType: S
+    - AttributeName: FolderId
+      AttributeType: S
+    - AttributeName: ObjectSeq
+      AttributeType: N
+  KeySchema:
+    - AttributeName: ObjectId
+      KeyType: HASH
+  ProvisionedThroughput:
+    ReadCapacityUnits: 1
+    WriteCapacityUnits: 1
+  GlobalSecondaryIndexes:
+    - IndexName: folderIdx
+      KeySchema:
+        - AttributeName: FolderId
+          KeyType: HASH
+        - AttributeName: ObjectSeq
+          KeyType: RANGE
+      Projection:
+        ProjectionType: ALL
+      ProvisionedThroughput:
+        ReadCapacityUnits: 1
+        WriteCapacityUnits: 1

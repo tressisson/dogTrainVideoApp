@@ -1,0 +1,6 @@
+Type: "AWS::CertificateManager::Certificate"
+Properties:
+  DomainName: "${self:custom.devDomain}"
+  DomainValidationOptions:
+  - DomainName: "${self:custom.devDomain}"
+    ValidationDomain: "${self:custom.validationDomain}"

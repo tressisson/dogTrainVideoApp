@@ -1,0 +1,21 @@
+FolderId;FolderSeq;FolderTitle;Image;PreReq;Tags
+csp25915589;1;Welcome & Prep;cpts-rectangle1.png;;
+csp18964081;2;Shopping List;cpts-rectangle1.png;1;
+csp2125203;3;Puppy Philosophy;cpts-rectangle1.png;2;
+csp8126272;4;Building Blocks;cpts-rectangle1.png;3;
+csp18151502;5;Management;cpts-rectangle1.png;4;
+csp26876116;6;Motivation;cpts-rectangle1.png;5;
+csp22582907;7;Crate Training;cpts-rectangle1.png;6;
+csp8013297;8;Potty Training: #2;cpts-rectangle1.png;;
+csp3711060;9;Potty Training: #1;cpts-rectangle1.png;;
+csp2982621;10;Obedience Prep;cpts-rectangle1.png;7;
+csp5932729;11;The Food Bowl Drill;cpts-rectangle1.png;10;
+csp16579176;12;Six Foot Recall Drill;cpts-rectangle1.png;11;
+csp0048827;13;Recall;cpts-rectangle1.png;12;
+csp16631763;14;Loose Leash Walking;cpts-rectangle1.png;13;
+csp5896825;15;Tug;cpts-rectangle1.png;14;
+csp13327993;16;Fetch;cpts-rectangle1.png;15;
+csp3797405;17;Chewing;cpts-rectangle1.png;16;
+csp2978184;18;Jumping;cpts-rectangle1.png;17;
+csp0801192;19;Nipping;cpts-rectangle1.png;18;
+bonus;20;Bonus Trailer;cpts-rectangle1.png;;

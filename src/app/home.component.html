@@ -1,0 +1,42 @@
+<div class="row col-md-12" style="background-color:lightgray">
+  <div class="col-md-7">
+    <img src="../assets/puppy-training-logo3.jpg" style="max-width: 150px" class="img-responsive" />
+  </div>
+  <div style="margin-top: 20px" class="col-md-5">
+    <nav class="navbar navbar-light bg-faded">
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav">
+          <a class="nav-item nav-link active trainNav" [routerLink]="['/home']">Home
+            <span class="sr-only">(current)</span>
+          </a>
+          <span *ngIf="(loggedIn.loginSubject | async)">
+            <a class="nav-item nav-link trainNav" [routerLink]="['/videos']">Videos</a>
+            <a class="nav-item nav-link trainNav" href="https://zm332-51f38b.pages.infusionsoft.net/">Affiliates</a>
+          </span>
+          <span *ngIf="!(loggedIn.premMember | async)">
+            <a class="nav-item nav-link trainNav" href="https://zm332.infusionsoft.com/app/orderForms/67dc6d94-804c-4485-a179-17eab08106c3">Buy Now</a>
+          </span>
+          <span id="loginButton" *ngIf="!(loggedIn.loginSubject | async)">
+            <a [routerLink]="['/login']">
+              <button class="btn btn-primary">Log In</button>
+            </a>
+          </span>
+          <span id="loginButton" *ngIf="(loggedIn.loginSubject | async)">
+            <a [routerLink]="['/login']">
+              <button class="btn btn-primary" (click)="loggedIn.logout()">Log Out</button>
+            </a>
+          </span>
+        </div>
+      </div>
+    </nav>
+  </div>
+</div>
+
+<router-outlet></router-outlet>
+
+<footer>
+  <div id="footer1" class="col-md-12 row"></div>
+  <div id="footer2" class="col-md-12 row">
+    &copy; All Rights Reserved 2017
+  </div>
+</footer>

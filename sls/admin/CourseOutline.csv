@@ -1,0 +1,119 @@
+CategoryId;Sequence;CategoryTitle;Image;PreRequisite;VideoSequence;Freemium;VideoTitle;Filename;ObjectId
+csp25915589;1;Welcome & Prep;welcome.jpg;;1;Y;Welcome;Welcome.m4v;ee13374d
+;;;;;2;N;Good Problems;Good_Problems.mov;57c1044e
+;;;;;3;N;Food Prep;Food_Prep.mov;0a3d43e9
+;;;;;4;N;Skipping Food Motivation;Skipping_Food_Motivation.mov;4e9ac065
+csp18964081;2;Shopping List ;shopping_list.jpg;1;1;N;Things you Never Need to Buy;Things_you_Never_Need_to_buy.mov;25204183
+;;;;;2;N;26 ft Retractable Leash;26_ft_Retractable_Leash.mov;e4a9d215
+;;;;;3;N;Buckle Collar;Buckle_Collar.mov;35823dde
+;;;;;4;N;Buying the Right Crate ;Buying_the_right_crate.mov;4f73cdb6
+;;;;;5;N;Tug Toys;Tug_Toys.mov;2cac07f5
+;;;;;6;N;Kong Wobbler;Kong_Wobbler.mov;cdd1e780
+;;;;;7;N;Deer Antlers;Deer_Antlers.mov;114baeaf
+;;;;;8;N;Compressed Rawhide;Compressed_Rawhide.mov;6da41754
+;;;;;9;N;Quality Kibble;Quality_Kibble.mov;3e9eddd6
+;;;;;10;N;Tooth Brush and Tooth Paste;Toothbrush_and_Toothpaste.mov;fedebd55
+csp2125203;3;Puppy Philosophy;puppy_philosophy.jpg;2;1;N;Stop Trying to Train;Stop_Trying_to_Train.m4v;bcdad105
+;;;;;2;N;Your Puppy is a Dog;Your_Puppy is_a_Dog.m4v;e7bf5aed
+;;;;;3;N;Being Proactive;Being_Proactive.m4v;f65b8e75
+;;;;;4;N;Failing Forward;Failing_Forward.m4v;a3b2b02c
+;;;;;5;N;Its Not Okay;Its_Not_Okay.mov;4587d76a
+;;;;;6;N;Seperation Anxiety;Seperation_Anxiety.mov;bf7f257c
+csp8126272;4;Building Blocks;building_blocks.jpg;3;1;N;Motivation;Motivation.m4v;97b4dea1
+;;;;;2;N;Obedience Training;Obedience_Training.mov;528c7c37
+;;;;;3;N;Behavioral Training Through Obedience;Behavioral_Training_Through_Obedience.m4v;a76e7329
+csp18151502;5;Management;management.jpg;4;1;N;Partnering with Local Canine Care Providers;Partnering_with_Local_Canine_Care_Providers.mov;b056c824
+;;;;;2;N;Bloat;Bloat.mov;0c5dbc21
+;;;;;3;N;Daily Regimen;Daily_Regimen.mov;0198c3d5
+;;;;;4;N;Example Schedule;Example_Schedule.mov;4d930508
+;;;;;5;N;Sanctuary;Sanctuary.mov;20c9a742
+;;;;;6;N;Zoomies;Zoomies.mov;9feea81b
+;;;;;7;N;Compressed Rawhide Use starring Baby Chester;Compressed_Rawhide_Use_starring_Baby_Chester.mov;8aa7cc2b
+;;;;;8;N;Setting Standards in a Multi Owner Household;Setting_Training_Standards_in_a_Multi_Owner_Household.mov;6b59c1d4
+;;;;;9;Y;Having Kids Make Inroads with your Puppy ;Having_Kids_Make_Inroads_with_your_Puppy.mov;ddb2dc1d
+;;;;;10;N;Praise;Praise.mov;7680b543
+csp26876116;6;Motivation;motivation.jpg;5;1;N;Food vs Treat;Food_vs_Treats.mov;6137082c
+;;;;;2;N;Praise;Praise.mov;f99f88cc
+csp22582907;7;Crate Training;crate_training.jpg;6;1;N;The Crate;The_Crate.mov;b58d4fb6
+;;;;;2;N;Intro to the Crate;Intro_to_the_Crate.mov;ff684fcc
+;;;;;3;N;Items Okay in the Crate;Items_Okay_in_the_Crate.mov;1a892f2e
+;;;;;4;N;Getting Your Puppy in the Crate;Getting_Your_Puppy_in_the_Crate.m4v;04408d98
+;;;;;5;N;Transitioning Your Puppy out of the Crate;Transitioning_your_Puppy_Out_of_the_Crate.mov;7fa62fe5
+;;;;;6;N;Crate Training starring Max;Crate_Training_starring_Max.m4v;5e7c865f
+csp8013297;8;Potty Training #2;potty_training_2.jpg;;1;N;Intro to Potty Training;Intro_to_Potty_Training.mov;2453633d
+;;;;;2;N;Free Feeding Stinks;Free_Feeding_Stinks.mov;38dd86ce
+;;;;;3;N;When does your Puppy have to Poop;When_does_your_Puppy_have_to_Poop.mov;709762f3
+csp3711060;9;Potty Training #1;potty_training_1.jpg;;1;N;No Pee Pee Pads;No_Pee_Pee_Pads.mov;ce74d484
+;;;;;2;Y;When does your Puppy have to Pee;When_does_your_Puppy_have_to_Pee.mov;dd8e46c0
+;;;;;3;N;Signs your Puppy has to Pee;Signs_your_Puppy_has_to_Pee.mov;070a580c
+;;;;;4;N;Managing Water Intake;Managing_Water_Intake.mov;05fc15b1
+;;;;;5;N;Excitement Pee;Excitement_Pee.mov;9590efa5
+;;;;;6;N;Taking Off the Potty Training Wheels;Taking_Off_the_Potty_Training_Wheels.mov;0f7d9139
+csp2982621;10;Obedience Prep;obedience_prep.jpg;7;1;N;Intro to Obediece;Food_vs_Treats.mov;69d3647c
+;;;;;2;N;Default Training;Default_Training.mov;c0cf4631
+;;;;;3;N;Layered Communication ;Layered_Communication.mov;b050570e
+;;;;;4;N;Minimal Communication;Minimal_Communication.mov;fca06d73
+;;;;;5;N;The Pay Day Concept;The_Pay_Day_Concept.mov;77a988da
+;;;;;6;N;Spotting with the Leash;Spotting_with_the_Leash.mov;60b03b53
+;;;;;7;N;Robotic Flow;Robotic_Flow.mov;1f44dace
+;;;;;8;N;Robotic Flow starring Dixie;Robotic_Flow_starring_Dixie.mov;ac66ffac
+;;;;;9;N;Learning from your Failures;Learning_From_your_Failures.mov;57fea5ab
+;;;;;10;N;Coach Approach;Coach_Approach.mov;9fb02218
+;;;;;11;N;The 3Ds;The_3Ds.mov;e5dcf713
+;;;;;12;N;Length of Training Sessions;Length_of_Training_Sessions.m4v;e979113e
+;;;;;13;N;Warming up an Undermotivated Puppy;Warming_Up_An_Undermotivated_Puppy.mov;81c834cb
+;;;;;14;N;Gaining Momentum During a Session starring Dixie;Gaining_Momentum_During_a_Session_starring_Dixie.mov;da169454
+csp5932729;11;The Food Bowl Drill ;food_bowl_drill.jpg;10;1;N;Food Bowl Drill: the Base for Everything;Food_Bowl_Basis_For_Everything.mov;2b1130bc
+;;;;;2;Y;Food Bowl Drill;Food_Bowl_Drill.mov;96830bf1
+;;;;;3;N;Sit at the Food Bowl;Sit_at_the_Food_Bowl.mov;e690d78d
+;;;;;4;N;Food Bowl Body Position starring Bella;Food_Bowl_Body_Position_starring_Bella.mov;9eb20c27
+;;;;;5;N;Food Bowl Drill Hand Placement starring Bella;Food_Bowl_Drill_Hand_Placement_starring_Bella.mov;1797ae73
+;;;;;6;N;Food Bowl Sit Stay Basics starring Baby Chester;Food_Bowl_Sit_Stay_Basics_starring_Baby_Chester.mov;1660f653
+;;;;;7;N;Get Dimensional with the Food Bowl Drill;Get_Dimensional_with_the_Food_Bowl_Drill.mov;8663d1dd
+;;;;;8;N;Food Bowl Drill starring Lilly;Food_Bowl_Drill_starring_Lilly.mov;a1bdd753
+csp16579176;12;Six Foot Recall Drill;recall_drill.jpg;11;1;N;Flowing starring the Leash starring Max;Flowing_with_the_Leash_starring_Max .mov;977c5f66
+;;;;;2;N;First Session starring Franklin;First_session_starring_Franklin.mov;3e702bd4
+;;;;;3;N;Extreme Robotic Flow starring Thor;Extreme_Robotic_Flow_starring_Thor.mov;a5363f06
+;;;;;4;N;6 ft Recall Drill starring Lilly;6_ft_Recall_Drill_starring_Lilly.mov;24a03063
+;;;;;5;N;6 ft Recall Energy Over Bribery starring Bella;6_ft_Recall_Energy_Over_Bribery_starring_Bella.mov;ccbb96be
+;;;;;6;N;Tightening Up Coming When Called starring Max;Tightening_up_Coming_when_Called_starring_Max.mov;d31b8d4a
+;;;;;7;N;6 ft Recall Drill starring Lilly;6_ft_Recall_Drill_starring_Lilly.mov;d2ef7a74
+;;;;;8;N;Coming When Called Compliance Training starring Mia;Coming_when_Called_Compliance_Training_starring_Mia.mov;c8e07d0c
+;;;;;9;N;Jumping Puppy During Training Session starring Lilly;Jumping_Puppy_During_Training_Session_starring_Lilly.mov;c4c9d032
+;;;;;10;N;Look;Look.mov;bfff5d71
+;;;;;11;N;Look starring Dixie;Look_starring_Dixie.mov;65be641a
+;;;;;12;N;Food Throw starring Beau;Food_Throw_starring_Beau.mov;f77bc389
+;;;;;13;N;Food Throw with a Low Drive Dog starring Dixie;Food_Throw_with_a_Low_Drive_Dog_starring_Dixie.mov;bb373f89
+;;;;;14;N;Food Throw Failure starring Bella;Food_Throw_Failure_starring_Bella.mov;9b939032
+;;;;;15;N;Food Throw starring Lilly;Food_Throw_starring_Lilly.mov;d8ee5616
+;;;;;16;N;Adding Distractions to your Puppys Environment starring Max;Adding_Distractions_starring_Max.mov;ecb53db0
+;;;;;17;N;Using the Leash to Keep Your Puppy Focused Around Distractions starring Max;Using_the_Leash_to_Keep_Your_Puppy_Focused_Around_Distractions.mov;10c73230
+csp0048827;13;Recall;recall.jpg;12;1;N;26 Natural Feet;26_Natural_Feet.mov;fa037148
+csp16631763;14;Loose Leash Walking;loose_leash_walking.jpg;13;1;N;Unleash your Leash;Unleash_your_Leash.mov;95fb7aa3
+;;;;;2;N;Leash Training;Leash_Training.mov;9af34c69
+;;;;;3;N;Your Leashs 3 Gears;Your_Leashs_3_Gears.mov;a7e78491
+;;;;;4;N;The On leash Sit;On_Leash_Sit.mov;9b8def23
+;;;;;5;N;Going From Sitting to Walking starring Max;Going_from_sitting_to_walking_starring_Max.mov;e77bc227
+;;;;;6;N;Going From Laying to Walking starring Max;Going_from_Laying_to_Walking_with_Max.mov;8aa7cc2b
+;;;;;7;N;Adding Duration to your Puppys Sits Around Distractions starring Max;Adding_Distractions_starring_Max.mov;43c0c646
+;;;;;8;N;Loose Leash Walking Intro starring Baby Chester;Loose_Leash_Walking_Intro_starring_Baby_Chester.mov;eeb82d9f
+;;;;;9;N;When Leash Pressure Does Not Work starring Dixie;When_Leash_Pressure_Does_Not_Work_starring_Dixie.mov;c77dba1c
+;;;;;10;N;Loose Leash Walking Intro starring Mia;Loose_Leash_Walking_starring_Mia.mov;3806090b
+;;;;;11;N;Duration Work starring Dixie;Duration_Work_starring_Dixie.mp4;486709eb
+;;;;;12;N;Duration Work starring Mia;Duration_Work_starring_Mia.mov;2101fd8a
+;;;;;13;N;Loose Leash Walking starring Moonlight;Loose_Leash_Walking_starring_Moonlight.mov;01fc57ff
+;;;;;14;N;On Leash Greetings;On_Leash_Greeting.mov;5f84eb2b
+;;;;;15;N;On Leash Greeting starring Moonlight;On_Leash_Greeting_starring_Moonlight.mov;dd88eb80
+csp5896825;15;Tug;tug.jpg;14;1;N;Will Tug Make my Dog Aggressive;Will_Tug_Make_my_Dog_Aggressive.mov;07793c3c
+;;;;;2;N;Tug Applying Known Concepts;Tug_Applying_Known_Concepts.mov;2bec8dd3
+;;;;;3;Y;Tug starring Beau;Tug_starring_Beau.mov;2d415654
+;;;;;4;N;Tug starring Dixie;Tug_starring_Dixie.mov;aed1c1d6
+csp13327993;16;Fetch;fetch.jpg;15;1;N;Fetch Applying Known Concepts;Fetch_Applying_Known_Concepts.mov;1b80fb8b
+;;;;;2;N;Fetch starring Beau;Fetch_starring_Beau.mov;bd37c5d4
+csp3797405;17;Chewing;chewing.jpg;16;1;N;Intro to Behavorial;Intro_to_Behavorial.mov;88f0e77b
+csp2978184;18;Jumping;jumping.jpg;17;1;N;Not Letting your Dog Connect;Not_Letting_your_Dog_Connect.mov;4eb7c50d
+;;;;;2;N;Leash the Beast;Leash_the_Beast.mov;d777087d
+;;;;;3;N;Jumping on the Couch starring Lilly;Jumping_on_the_Couch_starring_Lilly.mov;99f14010
+csp0801192;19;Nipping;nipping.jpg;18;1;N;Growl Snap Relax;Growl_Snap_Relax.mov;7a10951e
+bonus;20;Bonus Trailer;bonus.jpg;;1;N;Low Energy vs High Energy Dogs;Low_Energy_Dogs_vs_High_Energy_Dogs.mov;0558398e
+;;;;;2;N;Dogs That Sit to Far Away starring Lilly;Dogs_that_Sit_to_Far_Away_starring_Lilly.mov;6fb1f861

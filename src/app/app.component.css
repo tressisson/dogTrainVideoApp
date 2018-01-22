@@ -3,14 +3,6 @@ hr {
 }
 
 #vidCatalog {
-    background-color: lightgray;
     border-radius: 5px;
 }
 
-.vidList {
-    margin-bottom: 20px;
-}
-
-.vidList:hover {
-    background-color: gray;
-}

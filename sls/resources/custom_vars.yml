@@ -1,0 +1,19 @@
+stage: ${opt:stage, self:provider.stage}
+rootDomain: champs.r2cs.net
+devDomain: ttp-dev.champs.r2cs.net
+prodDomain: trainthroughplay.champs.r2cs.net
+validationDomain: r2cs.net
+devPoolId: 'us-east-1_JQJYJxE0g'
+devPoolClientId: 'u3ie9rsi0bq0lqr9eji3p0ejm'
+devPoolARN: 'arn:aws:cognito-idp:us-east-1:778881424197:userpool/us-east-1_JQJYJxE0g'
+prodPoolId: 'us-east-1_CD7QgENmU'
+prodPoolClientId: '2norii2ap4940euhbbm6689avv'
+prodPoolARN: 'arn:aws:cognito-idp:us-east-1:778881424197:userpool/us-east-1_CD7QgENmU'
+devDynamoCapacity:
+  ReadCapacityUnits: 1
+  WriteCapacityUnits: 1
+prodDynamoCapacity:
+  ReadCapacityUnits: 5
+  WriteCapacityUnits: 5
+devs3param1: 'AKIAI7VX3KW6UHA6OLUQ'
+devs3param2: '94Zy6b27L4e6UAD95yk8LZ59wppa52E0Qg4eBO/z'

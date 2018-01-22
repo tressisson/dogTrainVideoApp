@@ -1,0 +1,12 @@
+li {
+    box-shadow:3px3px3px#000;
+}
+
+li:hover {
+    background-color:lightgray;
+}
+
+#accordion {
+    overflow-y: auto;
+    max-height: 700px;
+}

@@ -1,0 +1,16 @@
+.trainNav {
+    font-size: 1.2em;
+    padding: 0 20px 0 20px;
+}
+
+#footer1 {
+    background-color:gray; 
+    height:60px
+}
+
+#footer2 {
+    background-color:darkgray; 
+    color:white; 
+    height:40px
+}
+
